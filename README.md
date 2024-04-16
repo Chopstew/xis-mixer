@@ -4,6 +4,8 @@
 
 Der Name dieses Programms ist ein Wortspiel aus "X-is-finished" und "Axis Mixer".
 
+![xis_mixer](https://github.com/Chopstew/xis-mixer/assets/116070302/dd578172-1a3d-4f79-8a28-a27a453cb96c)
+
 ## Ziel
 
 Das Hauptziel dieser Bedienungsoberfläche ist das schnelle Erstellen von Audiomixes im Onlinechor.
