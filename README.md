@@ -16,9 +16,11 @@ als wichtig empfunden wurden:
 3. Hinzufügen und Entfernen eines künstlichen Halles, wobei ein komplettes Entfernen des Halls möglich sein muss.
 
 Diese Parameter müssen für vier Chorregister und eine Begleitstimme eingestellt werden können. Entsprechend
-können fünf Klangquellen im Raum (dargestellt durch den Bildschirm) platziert werden. Unten in der Mitte
+können fünf Klangquellen (dargestellt als beschriftete, farbige Kreise) über Drag & Drop im Raum (dargestellt durch den Bildschirm) platziert werden. Unten in der Mitte
 befindet sich eine vordefinierte Hörposition, dargestellt als Kopf.
-Zur Wahrung des Copyrights der Choraufnahmen wurden in der [Demo](https://xis-mixer.surge.sh/) für Bildungszwecke frei verfügbare Aufnahmen verwendet. Deren Quelle ist im Abschnitt "Quelle der Audiodateien im Deployment" aufgeführt.
+Die Klangquellen befinden sich beim Öffnen alle links oben. Diese werden am besten im "Raum" platziert, bevor auf "Play/Pause" gedrückt wird.
+
+Zur Wahrung des Copyrights der ursprünglich verwendeten Choraufnahmen wurden in der [Demo](https://xis-mixer.surge.sh/) für Bildungszwecke frei verfügbare Aufnahmen verwendet. Deren Quelle ist im Abschnitt "Quelle der Audiodateien im Deployment" aufgeführt.
 
 ## Funktionen
 Für jede dargestellte Klangquelle können die oben beschriebenen Parameter einzeln angepasst werden.
