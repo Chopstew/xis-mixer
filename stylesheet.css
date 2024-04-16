@@ -1,0 +1,131 @@
+/*
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        border-radius: 10px;
+        width: 960px;
+        height: 640px;
+        background-color: #333;
+        padding: 1%;
+    }*/
+.draggable-box {
+    width: 130px;
+    height: 130px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    border: solid 10px #ccc;
+    color: rgba(255, 255, 255, 1);
+    font-size: x-large;
+    cursor: move;
+    background: transparent;
+    border-radius: 400px;
+    position: relative;
+    transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.slider-container {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: white;
+}
+.slider-text {
+    display: inline-block;
+    padding: 0 10px 5px 5px;
+}
+.slider {
+    display: inline-block;
+    width: 60%;
+    background-color: darkgreen;
+    transition: opacity .2s;
+    margin-top: 8px;
+}
+.slider:hover {
+    opacity: 1;
+}
+.piano-img {
+    rotate: 125deg;
+    scale: 20%;
+}
+.piano-img:active {
+    box-shadow: 0 5px 5px -3px rgba(255, 255, 255, 0.2),
+    0 8px 10px 1px rgba(255, 255, 255, 0.14),
+    0 3px 14px 2px rgba(255, 255, 255, 0.12);
+}
+.draggable-box.piano {
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    color: grey;
+    box-shadow: none;
+}
+.draggable-box.piano:active {
+    box-shadow: none;
+}
+.draggable-box.singer {
+    border-color: darkorchid;
+    color: darkorchid;
+}
+.draggable-box.hammond {
+    border-color: lightgreen;
+    color: lightgreen;
+}
+.draggable-box.guitar {
+    border-color: palegoldenrod;
+    color: palegoldenrod;
+}
+.draggable-box.tenor {
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+}
+.draggable-box.bass {
+    border-color: coral;
+    color: coral;
+}
+.draggable-box.singer:active {
+    box-shadow: 0 5px 5px -3px rgba(255, 255, 255, 0.2),
+    0 8px 10px 1px rgba(255, 255, 255, 0.14),
+    0 3px 14px 2px rgba(255, 255, 255, 0.12);
+}
+.draggable-box.hammond:active {
+    box-shadow: 0 5px 5px -3px rgba(255, 255, 255, 0.2),
+    0 8px 10px 1px rgba(255, 255, 255, 0.14),
+    0 3px 14px 2px rgba(255, 255, 255, 0.12);
+}
+.draggable-box.guitar:active {
+    box-shadow: 0 5px 5px -3px rgba(255, 255, 255, 0.2),
+    0 8px 10px 1px rgba(255, 255, 255, 0.14),
+    0 3px 14px 2px rgba(255, 255, 255, 0.12);
+}
+.draggable-box.tenor:active {
+    box-shadow: 0 5px 5px -3px rgba(255, 255, 255, 0.2),
+    0 8px 10px 1px rgba(255, 255, 255, 0.14),
+    0 3px 14px 2px rgba(255, 255, 255, 0.12);
+}
+.draggable-box.bass:active {
+    box-shadow: 0 5px 5px -3px rgba(255, 255, 255, 0.2),
+    0 8px 10px 1px rgba(255, 255, 255, 0.14),
+    0 3px 14px 2px rgba(255, 255, 255, 0.12);
+}
+.head-placement {
+    display: inline-block;
+    margin-top: 30%;
+}
+.head-img {
+    rotate: 180deg;
+    margin-top: 15%;
+    width: 30%;
+}
+#hammond, #guitar, #bass, #drums, #singer {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+}
+#hammondheader, #guitarheader, #bassheader, #drumsheader, #singerheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+}

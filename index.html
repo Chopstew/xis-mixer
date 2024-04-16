@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xis-mixer</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body style="background-color: #333333; text-align: center;">
+    <div class="slider-container">
+        <p style="margin-bottom: -5px">
+            Künstlicher Hall
+        </p>
+        <div class="slider-text">
+            0%
+        </div>
+        <input type="range" min="0" max="50" value="0" class="slider" id="dryWetSlider">
+        <div class="slider-text">
+            100%
+        </div>
+    </div>
+    <button data-playing="false" role="switch" aria-checked="false">
+        <span>Play/Pause</span>
+    </button>
+
+    <div class="container">
+        <div id="singer">
+            <div id="singerheader" class="draggable-box singer">Gesang</div>
+        </div>
+
+        <div id="hammond">
+            <div id="hammondheader" class="draggable-box hammond">Orgel</div>
+        </div>
+
+        <div id="guitar">
+            <div id="guitarheader" class="draggable-box guitar">Gitarre</div>
+        </div>
+
+        <div id="bass">
+            <div id="bassheader" class="draggable-box tenor">Bass</div>
+        </div>
+
+        <div id="drums">
+            <div id="drumsheader" class="draggable-box bass">Drums</div>
+        </div>
+
+        <div id="hearing" class="head-placement">
+            <img class="head-img" alt="top view of a person's head" src="assets/head_1.png">
+        </div>
+    </div>
+
+    <script src="reverb.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
