@@ -79,3 +79,7 @@ Die Wiedergabe der Audiodateien kann nicht verlässlich zum exakt gleichen Zeitp
 2. xls-mixer.html über integrierte Vorschau-Funktion der IDE öffnen
 
 CORS-Protokoll sollte dadurch umgangen werden, da viele IDEs für das Preview einen lokalen Server starten.
+
+## Quellen
+reverb.js Extension: ![http://reverbjs.org/](http://reverbjs.org/)
+Verwendete Audio-Stems: [Cambridge MT](https://cambridge-mt.com/rs2/bkg/)
